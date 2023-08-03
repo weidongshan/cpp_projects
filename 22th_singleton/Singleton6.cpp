@@ -40,7 +40,7 @@ private:
 	
 };
 
-/* 饿汉模式: 用到时才生成 */
+/* 懒汉模式: 用到时才生成 */
 Singleton *Singleton::gInstance;
 pthread_mutex_t Singleton::g_tMutex  = PTHREAD_MUTEX_INITIALIZER;
 
