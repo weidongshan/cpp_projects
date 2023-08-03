@@ -32,7 +32,7 @@ private:
 	
 };
 
-/* 懒汉模式: 你先给我做好 */
+/* 饿汉模式: 你先给我做好 */
 Singleton *Singleton::gInstance = new Singleton;
 
 
